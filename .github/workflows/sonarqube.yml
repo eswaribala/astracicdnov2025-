@@ -27,7 +27,7 @@ jobs:
    - name: Run tests with coverage
      run: |
       cd locationapi
-      python -m pytest -vv
+      #python -m pytest -vv
       coverage run -m unittest discover
       coverage xml
      continue-on-error: true
